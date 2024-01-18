@@ -1,0 +1,77 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b532ec8b5d08156264074e274f34ecba",
+    "packages": [
+        {
+            "name": "mauserrifle/simresults",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mauserrifle/simresults.git",
+                "reference": "3ddae12d5cbfb0179c2c68a9232e37ca5ddef171"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mauserrifle/simresults/zipball/3ddae12d5cbfb0179c2c68a9232e37ca5ddef171",
+                "reference": "3ddae12d5cbfb0179c2c68a9232e37ca5ddef171",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpspec/phpspec": "^7",
+                "phpunit/phpunit": "^9"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Simresults": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Maurice van der Star",
+                    "email": "mauserrifle@gmail.com",
+                    "homepage": "http://mauserrifle.nl"
+                }
+            ],
+            "description": "Simrace result reader for PHP",
+            "homepage": "http://simresults.net",
+            "keywords": [
+                "racing",
+                "rfactor",
+                "sim",
+                "simracing"
+            ],
+            "support": {
+                "issues": "https://github.com/mauserrifle/simresults/issues",
+                "source": "https://github.com/mauserrifle/simresults/tree/develop"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/mauserrifle",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-12-05T15:33:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mauserrifle/simresults": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

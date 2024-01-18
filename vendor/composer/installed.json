@@ -1,0 +1,65 @@
+{
+    "packages": [
+        {
+            "name": "mauserrifle/simresults",
+            "version": "dev-develop",
+            "version_normalized": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mauserrifle/simresults.git",
+                "reference": "3ddae12d5cbfb0179c2c68a9232e37ca5ddef171"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mauserrifle/simresults/zipball/3ddae12d5cbfb0179c2c68a9232e37ca5ddef171",
+                "reference": "3ddae12d5cbfb0179c2c68a9232e37ca5ddef171",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpspec/phpspec": "^7",
+                "phpunit/phpunit": "^9"
+            },
+            "time": "2023-12-05T15:33:04+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Simresults": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Maurice van der Star",
+                    "email": "mauserrifle@gmail.com",
+                    "homepage": "http://mauserrifle.nl"
+                }
+            ],
+            "description": "Simrace result reader for PHP",
+            "homepage": "http://simresults.net",
+            "keywords": [
+                "racing",
+                "rfactor",
+                "sim",
+                "simracing"
+            ],
+            "support": {
+                "issues": "https://github.com/mauserrifle/simresults/issues",
+                "source": "https://github.com/mauserrifle/simresults/tree/develop"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/mauserrifle",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../mauserrifle/simresults"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

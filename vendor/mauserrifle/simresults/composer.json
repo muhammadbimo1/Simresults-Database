@@ -1,0 +1,33 @@
+{
+    "name": "mauserrifle/simresults",
+    "type": "library",
+    "description": "Simrace result reader for PHP",
+    "keywords": ["sim", "racing", "simracing", "rfactor"],
+    "homepage": "http://simresults.net",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Maurice van der Star",
+            "email": "mauserrifle@gmail.com",
+            "homepage": "http://mauserrifle.nl"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.3"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "phpspec/phpspec": "^7"
+    },
+    "autoload": {
+        "psr-0": {"Simresults": "lib/"}
+    },
+    "scripts": {
+        "test":[
+            "vendor/bin/phpspec run",
+            "vendor/bin/phpunit"
+        ]
+    }
+}

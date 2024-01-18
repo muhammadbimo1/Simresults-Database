@@ -1,0 +1,16 @@
+{
+    "name": "bego/simresultstest",
+    "description": "Simresults ouput",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Muhammad Bimo",
+            "email": "47705538+muhammadbimo1@users.noreply.github.com"
+        }
+    ],
+    
+        "require": {
+            "mauserrifle/simresults": "dev-develop"
+        }
+    
+}
