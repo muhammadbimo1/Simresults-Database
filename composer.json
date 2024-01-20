@@ -10,7 +10,8 @@
     ],
     
         "require": {
-            "mauserrifle/simresults": "dev-develop"
+            "mauserrifle/simresults": "dev-develop",
+        "mongodb/mongodb": "^1.17"
         }
     
 }
